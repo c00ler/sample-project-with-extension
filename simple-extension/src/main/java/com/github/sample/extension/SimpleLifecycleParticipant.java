@@ -18,6 +18,9 @@ public class SimpleLifecycleParticipant extends AbstractMavenLifecycleParticipan
 
     @Override
     public void afterSessionEnd(MavenSession session) throws MavenExecutionException {
+        LOGGER.info("Simple :: lifecycleParticipant :: afterSessionEnd :: slf4j");
+        plexusLogger.info("Simple :: lifecycleParticipant :: afterSessionEnd :: plexus");
+
         LOGGER.debug("Simple :: lifecycleParticipant :: afterSessionEnd :: slf4j");
         plexusLogger.debug("Simple :: lifecycleParticipant :: afterSessionEnd :: plexus");
     }

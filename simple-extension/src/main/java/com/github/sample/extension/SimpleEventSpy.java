@@ -17,12 +17,18 @@ public class SimpleEventSpy extends AbstractEventSpy {
 
     @Override
     public void init(Context context) throws Exception {
+        LOGGER.info("Simple :: spy :: init :: slf4j");
+        plexusLogger.info("Simple :: spy :: init :: plexus");
+
         LOGGER.debug("Simple :: spy :: init :: slf4j");
         plexusLogger.debug("Simple :: spy :: init :: plexus");
     }
 
     @Override
     public void close() throws Exception {
+        LOGGER.info("Simple :: spy :: init :: slf4j");
+        plexusLogger.info("Simple :: spy :: init :: plexus");
+
         LOGGER.debug("Simple :: spy :: close :: slf4j");
         plexusLogger.debug("Simple :: spy :: close :: plexus");
     }
