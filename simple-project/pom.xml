@@ -13,18 +13,4 @@
 
     <name>Simple Project</name>
 
-    <dependencies>
-
-    </dependencies>
-
-    <build>
-        <extensions>
-            <extension>
-                <groupId>com.github.sample</groupId>
-                <artifactId>simple-extension</artifactId>
-                <version>1.0-SNAPSHOT</version>
-            </extension>
-        </extensions>
-    </build>
-
 </project>
