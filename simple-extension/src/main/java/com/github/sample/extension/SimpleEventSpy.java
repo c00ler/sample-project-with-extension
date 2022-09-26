@@ -26,8 +26,8 @@ public class SimpleEventSpy extends AbstractEventSpy {
 
     @Override
     public void close() throws Exception {
-        LOGGER.info("Simple :: spy :: init :: slf4j");
-        plexusLogger.info("Simple :: spy :: init :: plexus");
+        LOGGER.info("Simple :: spy :: close :: slf4j");
+        plexusLogger.info("Simple :: spy :: close :: plexus");
 
         LOGGER.debug("Simple :: spy :: close :: slf4j");
         plexusLogger.debug("Simple :: spy :: close :: plexus");
